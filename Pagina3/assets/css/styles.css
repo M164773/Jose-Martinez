@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(224, 224, 23);
+    position: sticky;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    letter-spacing: 0.5vw;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+nav ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vw !important;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+footer div{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0 auto;
+}
+
+.footer-ws-ig a{
+    font-size: 2.2vw;
+    text-align: left;
+    text-decoration: none;
+    background-color: rgb(224, 224, 23);
+    padding: 3%;
+    color: black;
+}
+
+.footer-ws-ig a:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.footer-copyright{
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.footer-info{
+    text-align: right;
+    font-size: 1.7vw;
+}
+
+.viveres-div div, .golosinas-div div, .contacto-div form, .contacto-div iframe, .charcuteria-div{
+    margin: 0 auto;
+}
+
+.contacto-div form label{
+    font-weight: bolder;
+    font-size: 1.9vw;
+}
+
+.contacto-div form textarea, .contacto-div form input{
+    resize: none;
+    font-size: 1.7vw;
+}
+
+.contacto-div form div button{
+    padding: 2%;
+    letter-spacing: 0.5vw;
+    background-color: rgb(224, 224, 23);
+    font-weight: bolder;
+    font-size: 1.8vw;
+}
+
+.contacto-div form div button:hover{
+    background-color: black;
+    color: white;
+}
+
+#viveres, #charcuteria, #golosinas, #contacto{
+    text-align: center;
+    margin: 2% 0;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+}
+
+.golosinas-div{
+    display: flex;
+    margin: 0 auto;
+}
+
+.d-flex input, .d-flex input:focus{
+    background-color: white;
+    color: black;
+}
+
+.d-flex button{
+    background-color: white;
+}
+
+.d-flex input::placeholder{
+    color: gray;
+}
+
+.accordion{
+    margin: 5% 30%;
+}
+
+.accordion-button, .accordion-body:focus{
+    background-color: rgb(224, 224, 23) !important;
+    color: black !important;
+    box-shadow: none !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.accordion-body{
+    color: white;
+    background-color: black;
+    text-align: justify;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0px 0px 31px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 10px rgba(0,0,0,0.75);
+}
+
+.horizontal-card{
+    margin: 0 auto !important;
+}
+
+.row{
+    width: 100%;
+}

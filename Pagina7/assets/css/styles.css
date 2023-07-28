@@ -1,0 +1,98 @@
+@font-face{
+    font-family: verne;
+    src: url("Lugrasimo-Regular.ttf")
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: verne;
+}
+
+form button{
+    display: table !important;
+    margin: 5% auto !important;
+    font-size: 2vw !important;
+}
+
+footer h5{
+    font-size: 2vw;
+}
+
+footer a, footer p{
+    font-size: 1.5vw;
+}
+
+#inicio h4, #historia h4, #autor h4, #adaptaciones h4, #contacto h4{
+    display: table;
+    margin: 5% auto;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+#historia p{
+    margin: 0 10%;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+#historia ol{
+    display: table;
+    margin: 0 auto;
+    font-size: 1.5vw;
+}
+
+.inicio-div{
+    display: flex;
+    margin: 0 20%;
+    border: 3px solid black;
+    background-color: #03a9f4;
+}
+
+.inicio-div img, .inicio-div p{
+    display: table;
+    margin: 0 5% 0 0;
+    height: 40vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.carousel-item img{
+    width: 35vw !important;
+}
+
+.modal-trigger{
+    display: table;
+    margin: 0 auto;
+}
+
+.modal-trigger img{
+    height: 25vw;
+}
+
+.modal-content{
+    text-align: justify;
+    font-size: 2vw;
+}
+
+.modal-footer a{
+    font-size: 2vw;
+}
+
+.collapsible, form{
+    margin: 0 10%;
+}
+
+.collapsible-header, .collapsible-body{
+    font-size: 1.5vw;
+}
+
+.input-field input, .input-field label{
+    font-size: 1.5vw;
+    font-family: verne;
+}
+
+.footer-copyright .container{
+    font-size: 2vw;
+}

@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header, header nav{
+    background-color: darkblue !important;
+}
+
+h2{
+    text-align: center;
+    margin: 5% !important;
+    padding: 1%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 25%;
+    font-size: 4vw !important;
+}
+
+body footer{
+    background-color: darkblue !important;
+}
+
+#inicio{
+    color: white;
+    text-align: center;
+    padding: .01% 0;
+    display: flex;
+}
+
+#inicio div{
+    margin: 0 auto;
+}
+
+#inicio div h6{
+    font-size: 1.5vw;
+}
+
+#mision-vision{
+    display: flex;
+}
+
+#mision-vision a{
+    margin: 15% 2%;
+    font-size: 2vw;
+    padding: 0;
+}
+
+#mision-vision div{
+    padding: 0 4%;
+}
+
+#mision-vision img{
+    margin: 5% auto;
+}
+
+#mision-vision div span i{
+    width: 5%;
+}
+
+.card{
+    margin: 5% !important;
+}
+
+.card-content h4, #mision-vision div span{
+    font-size: 3vw !important;
+}
+
+.card-content h5, .page-footer h5{
+    font-size: 2.5vw;
+}
+
+.card-content ol, #mision-vision div p{
+    text-align: justify;
+}
+
+.p-prof{
+    text-align: center;
+    font-weight: bolder;
+    background-color: darkblue;
+    color: white;
+    padding: 2%;
+    margin: 0 25%;
+    border-radius: 25%;
+    font-size: 2vw;
+}
+
+.collapsible-header, .card-action a, .card-content ol, .modal-footer a, .modal-content{
+    font-size: 2vw !important;
+}
+
+.collapsible-body table{
+    width: 80%;
+    font-size: 2vw;
+    margin: 0 auto;
+}
+
+.collapsible-body ul{
+    text-align: center;
+    margin: 4% 25%;
+    font-weight: bolder;
+    background-color: darkblue;
+    color: white;
+    padding: 2%;
+    border-radius: 25%;
+    font-size: 2vw;
+}
+
+.page-footer ul li, .page-footer p, .container, #mision-vision div p{
+    font-size: 2vw;
+}
+
+.container a img{
+    margin-left: 50%;
+}

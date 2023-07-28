@@ -1,0 +1,111 @@
+@font-face{
+    font-family: chechu;
+    src: url("BruceForeverRegular-X3jd2.ttf");
+}
+
+body{
+    font-family: chechu;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#07264e, #003A6D);
+}
+
+form{
+    display: table;
+    margin: 0 auto;
+}
+
+form button{
+    display: table !important;
+    margin: 5% auto !important;
+    font-family: chechu;
+    font-size: 2vw !important;
+}
+
+form label{
+    font-size: 1.5vw !important;
+}
+
+form input{
+    font-family: chechu !important;
+    color: white;
+    font-size: 1.5vw !important;
+    width: 100% !important;
+}
+
+footer h5{
+    font-size: 2vw;
+}
+
+footer a, footer p{
+    font-size: 1.5vw;
+}
+
+#inicio h2, #habilidades h2, #estudios h2, #contacto h2{
+    font-size: 3.5vw;
+    display: table;
+    margin: 5% auto;
+    padding: 4%;
+    border-radius: 50%;
+    background: radial-gradient(#AF0000, #CC0001);
+}
+
+#inicio .card{
+    margin: 0 10%;
+}
+
+#estudios a{
+    display: table;
+    margin: 5% auto;
+    padding: 1%;
+    font-size: 1.5vw;
+}
+
+#contacto .row{
+    margin: 0 10%;
+}
+
+#paginas a{
+    margin: 0 20%;
+}
+
+#paginas a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.collapsible{
+    margin: 0 15%;
+}
+
+.collapsible-header{
+    background: radial-gradient(lime, yellowgreen);
+    color: black;
+    font-size: 2vw;
+}
+
+.collapsible-body{
+    background: radial-gradient(red, darkred);
+    font-size: 1.5vw;
+}
+
+.modal, .modal-footer{
+    background: radial-gradient(purple, rebeccapurple);
+}
+
+.modal-content h4{
+    font-size: 2vw !important;
+}
+
+.modal-content p{
+    font-size: 1vw;
+}
+
+.modal-footer a{
+    font-size: 1vw;
+    color: white;
+}
+
+.card-content{
+    background: radial-gradient(orange, gold);
+}
